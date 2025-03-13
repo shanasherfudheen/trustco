@@ -17,6 +17,12 @@
     --FS: 1rem;
 }
 
+/* ||GENERAL STYLES */
+
+.nowrap {
+    white-space: nowrap;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -54,6 +60,7 @@ li a {
     width: 100%;
     height: 700px;
     text-align: center;
+    padding: 50px 20px;
 }
 
 #hero h1 {
@@ -62,7 +69,7 @@ li a {
     line-height: 1.2;
 }
 
-#hero h1 span {
+#hero h1 #site-name {
     color: var(--primary-color);
 }
 
@@ -89,3 +96,22 @@ li a {
     font-weight: 700;
     font-size: var(--FS);
 }
+
+@media (max-width: 1024px) {
+    header {
+        padding: 20px;
+    }
+    
+    .main {
+        padding: 80px 60px;
+    }
+    
+    #hero h1 {
+        font-size: 3rem;
+    }
+
+    #hero p {
+        font-size: 1.2rem;
+    }
+}
+
