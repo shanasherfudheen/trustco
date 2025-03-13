@@ -29,6 +29,7 @@
 
 body {
     font-family: var(--FF);
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -58,12 +59,10 @@ li a {
     height: 98px;
     background-color: #F2F5F6;
     display: flex;
-    flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
     padding: 24px 20px;
-    position: sticky;
-    top: 0;
+    margin: 0 auto;
 }
 
 .header__nav {
@@ -79,6 +78,63 @@ li a {
 
 .header__ul li {
     font-weight: 800;
+}
+
+/* HAMBURGER MENU */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    /* gap: 5px; */
+}
+
+.hamburger div {
+    width: 30px;
+    height: 3px;
+    background-color: var(--primary-color);
+    transition: all 0.3s ease;
+    margin: 5px;
+}
+
+.hamburger.active div:nth-child(1) {
+    transform: translateY(13px) rotate(45deg);
+  }
+  .hamburger.active div:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active div:nth-child(3) {
+    transform: translateY(-13px) rotate(-45deg);
+  }
+
+.mobile-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background-color: #F2F5F6;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 1000;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: opacity 0.3s ease, height 0.3s ease;
+}
+
+.mobile-nav.active {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+}
+
+.mobile-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .header__ul li a:hover {
@@ -176,21 +232,24 @@ li a {
     font-size: var(--FS);
 }
 
-@media (max-width: 1024px) {
-    header {
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
         padding: 20px;
     }
-    
-    .main {
-        padding: 80px 60px;
-    }
-    
-    #hero h1 {
-        font-size: 3rem;
+
+    .header__nav {
+        display: none;
     }
 
-    #hero p {
-        font-size: 1.2rem;
+    .hamburger {
+        display: flex;
     }
+
+    .header__btn {
+        display: none;
+    }
+
 }
-
