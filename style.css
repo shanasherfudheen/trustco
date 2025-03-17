@@ -568,6 +568,8 @@ li a {
   background-color: var(--primary-color);
   border: none;
   color: var(--primary-bg-color);
+  font-size: 1.125rem;
+  font-weight: bold;
 }
 
 .success-btn .icon {
@@ -605,6 +607,109 @@ li a {
   position: absolute;
   top: 170px;
   left: 453px;
+}
+
+/* ||BUILDING BRIDGES SECTION */
+
+#building-bridges {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 150px;
+  gap: 4.8125rem;
+  position: relative;
+}
+
+.circle {
+  width: 229px;
+  height: 229px;
+  border-radius: 1000px;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 416px;
+  left: 491px;
+  border: 4px solid #fff;
+  padding: 26px 56px;
+}
+
+.circle-content {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.circle-content h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 3.75rem;
+}
+
+.circle-content p {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+.right-text {
+  width: 511px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.right-text h2 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  letter-spacing: -2px;
+}
+
+.right-text .connect {
+  color: #92a7b0;
+}
+
+.right-text p {
+  font-size: 1.25rem;
+  font-weight: normal;
+  line-height: 1.875rem;
+  color: #12141d;
+}
+
+#view-report-btn {
+  width: 205px;
+  height: 64px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  border: none;
+  border-radius: 55px;
+}
+
+#view-report-btn p {
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--primary-bg-color);
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+#view-report-btn .icon {
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  text-align: center;
+  background-color: #f2f5f629;
+  color: #fff;
+  border-radius: 100px;
 }
 /* MEDIA QUERIES */
 
