@@ -963,6 +963,108 @@ li a {
 #read-more-btn .icon {
   color: var(--primary-color);
 }
+
+/* ||CTA BANNER SECTION */
+
+#banner-section {
+  width: 100%;
+  height: 520px;
+}
+
+.layout {
+  width: 100%;
+  height: 520px;
+  background-color: #12141d;
+  display: flex;
+  flex-direction: row;
+}
+
+.banner-text {
+  width: 673px;
+  height: 312px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.banner-text h2 {
+  color: #fff;
+  font-size: 3.75rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  letter-spacing: -2px;
+  text-transform: capitalize;
+}
+
+.banner-btn {
+  width: 448px;
+  height: 118px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.banner-btn button {
+  width: 273px;
+  height: 64px;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  border-radius: 55px;
+  background-color: #f0b73f;
+  color: #ffffff;
+  font-family: var(--FF);
+  font-weight: bold;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.banner-btn p {
+  font-size: 1.25rem;
+  font-weight: normal;
+  line-height: 1.875rem;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.decor-area {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 145px;
+}
+
+.black-badge {
+  position: absolute;
+  top: 224.13px;
+  left: -37px;
+  z-index: 1;
+}
+
+.girl-pic {
+  position: absolute;
+  top: -145.1px;
+  left: -29px;
+  z-index: 4;
+}
+
+.green-badge {
+  position: absolute;
+  top: 196.26px;
+  left: 424px;
+  z-index: 5;
+}
+
+.yellow-badge {
+  position: absolute;
+  top: 39.13px;
+  left: 589px;
+  z-index: 3;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
