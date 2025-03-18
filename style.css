@@ -38,8 +38,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
   font-size: var(--FS);
   line-height: 1.5;
 }
@@ -346,6 +345,7 @@ li a {
   height: 120px;
   font-weight: normal;
   font-size: 1.25rem;
+  line-height: 1.5;
 }
 
 #teams {
@@ -710,6 +710,124 @@ li a {
   background-color: #f2f5f629;
   color: #fff;
   border-radius: 100px;
+}
+
+/* ||TESTIMONIALS SECTION */
+
+#testimonials {
+  width: 100%;
+  height: 671px;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  padding: 100px 150px;
+  background-color: #f2f5f6;
+}
+
+.testimonial-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 4.125rem;
+}
+
+.testimonial-header h2 {
+  font-size: 3.75rem;
+  font-weight: bold;
+  line-height: 4.5rem;
+  letter-spacing: -2px;
+  color: #12141d;
+}
+
+.testimonial-see-all {
+  width: 95px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  border: none;
+  background-color: #f2f5f6;
+  color: #12141d;
+  font-weight: bold;
+  font-size: 1.125rem;
+  font-family: var(--FF);
+}
+
+.testimonial-see-all .icon {
+  width: 24px;
+  height: 24px;
+}
+
+.testimonial-container {
+  width: 1140px;
+  height: 259px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.testimonial {
+  width: 554px;
+  height: 259px;
+  background-color: #fff;
+  padding: 1.5rem;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0px 1px 2px hsla(0, 0%, 0%, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.testimonial .quote {
+  font-size: 5.625rem;
+  width: 47px;
+  height: 14px;
+  padding-bottom: 32px;
+  color: #f0b73f;
+}
+
+.testimonial blockquote {
+  width: 506px;
+  height: 96px;
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  color: #12141d;
+}
+
+.author {
+  width: 100%;
+  height: 53px;
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#name {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  color: #000;
+}
+
+#designation {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5rem;
+  color: #404040;
+}
+
+.carousel {
+  text-align: center;
 }
 /* MEDIA QUERIES */
 
