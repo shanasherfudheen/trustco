@@ -1722,4 +1722,47 @@ input[type="submit"] {
     width: 100%;
     height: auto;
   }
+
+  /* ||BUILDING BRIDGES */
+  #building-bridges {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 50px 20px;
+  }
+
+  .right-text {
+    width: 100%;
+    height: auto;
+    order: 1;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .right-text h2 {
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+    letter-spacing: 0;
+    text-transform: capitalize;
+  }
+
+  .right-text p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .left-image {
+    order: 2;
+  }
+
+  #view-report-btn {
+    width: 100%;
+    height: auto;
+  }
+
+  #view-report-btn p {
+    width: 100%;
+    height: auto;
+  }
 }
