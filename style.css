@@ -1970,7 +1970,6 @@ input[type="submit"] {
   .footer {
     width: 100%;
     height: auto;
-    padding: 50px 20px;
   }
 
   .footer-top {
@@ -1978,9 +1977,9 @@ input[type="submit"] {
     height: auto;
     flex-direction: column;
     gap: 1.5rem;
-    padding: 0;
     justify-content: center;
     align-items: center;
+    padding: 50px 20px;
   }
 
   .logo-social {
@@ -2006,5 +2005,16 @@ input[type="submit"] {
   .nav-links h3 {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  /* ||FOOTER BOTTOM / SITE CREDITS */
+  .footer-bottom {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
   }
 }
