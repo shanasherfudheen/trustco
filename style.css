@@ -1829,4 +1829,64 @@ input[type="submit"] {
     font-size: 0.75rem;
     line-height: 1.125rem;
   }
+
+  /* ||BLOGS */
+  #blogs {
+    width: 100%;
+    height: auto;
+    padding: 50px 20px;
+    gap: 2rem;
+  }
+
+  .blogs-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .blogs-header h2 {
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+    letter-spacing: 0;
+  }
+
+  .articles {
+    gap: 1rem;
+  }
+
+  .article {
+    width: 100%;
+  }
+
+  .article-info {
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    gap: 0.5rem;
+  }
+
+  .article-details h4 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .article-details p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  #date {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+  }
+
+  #person {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+  }
+
+  #read-more-btn p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
 }
