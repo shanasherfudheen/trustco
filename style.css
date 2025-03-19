@@ -1659,4 +1659,21 @@ input[type="submit"] {
   .benefit-card:nth-child(2) {
     height: auto;
   }
+
+  /* ||NUMBERS */
+  #numbers {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 50px 20px;
+  }
+
+  .metric {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
