@@ -1889,4 +1889,75 @@ input[type="submit"] {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
+
+  /* ||BANNER */
+  #banner-section {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .layout {
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+
+  .banner-text {
+    width: 100%;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .banner-text h2 {
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+    letter-spacing: 0;
+  }
+
+  .banner-btn {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .decor-area {
+    width: 100%;
+    position: relative;
+  }
+
+  .decor-area img {
+    max-width: 100%;
+  }
+
+  .black-badge {
+    position: absolute;
+    top: -125px;
+    z-index: 6;
+    padding: 8px;
+  }
+
+  .girl-pic {
+    position: absolute;
+    top: -211.1px;
+    z-index: 4;
+  }
+
+  .green-badge {
+    position: absolute;
+    top: -78.74px;
+    left: 207px;
+    z-index: 5;
+    padding: 8px;
+  }
+
+  .yellow-badge {
+    position: absolute;
+    top: -276.87px;
+    left: 190px;
+    z-index: 3;
+    padding: 8px;
+  }
 }
